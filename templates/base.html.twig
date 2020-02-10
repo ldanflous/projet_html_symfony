@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome !{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('css/myBootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/myCSS.css') }}">
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <img class="navbar-brand" src="{{ asset('img/form.png') }}" alt="" width="70px">
+    <span class="navbar-item" id="title" href="">Welcome !</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto" id="navbarSize">
+            <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Change experience</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Test it</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Display DB</a></li>
+
+        </ul>
+        <ul class="navbar-nav mr-2">
+            <li class="nav-item"><a href="" class="nav-link">Admin access</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Sign up</a></li>
+
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    {% block body %}{% endblock %}
+</div>
+
+{% block scriptAlreadyImported %}
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+{% endblock %}
+{% block javascripts %}
+
+{% endblock %}
+<!-- Footer -->
+<footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <img class="navbar-brand" src="{{ asset('img/form.png') }}" alt="" width="70px">
+        <span class="center">
+           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+       </span>
+        <ul class="navbar-nav mr-2">
+            <li class="nav-item"><a href="" class="nav-link">Copyright © 2020</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+
+</html>

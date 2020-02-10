@@ -1,0 +1,104 @@
+#divProg{
+    margin-bottom: 10px;
+}
+
+#prog{
+    width: 0%;
+}
+
+#emoji{
+    display: block;
+    margin: 0px auto;
+    width: 5%;
+    height: 5%;
+}
+
+button{
+    float: left;
+}
+
+.tiret{
+    margin-left: 3em;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#advice{
+    padding: 0px;
+    margin: 0px;
+}
+
+span{
+    display: block;
+}
+
+#subAdvice{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0px;
+}
+
+#sc{
+    display: none;
+}
+
+.progress {
+    position:relative;
+    height: 30px;
+}
+.progress span {
+    position:relative;
+    left:0;
+    width:100%;
+    text-align:center;
+    z-index:2;
+    color:white;
+    font-size: 0.8rem;
+}
+
+#barTaller progress-bar{
+    height: 30px;
+}
+
+#inputFile {
+    display: inline;
+}
+
+.centerDiv {
+    text-align: center;
+}
+
+input[type='file'] {
+    color: transparent;
+}
+
+#btnBot {
+    margin-bottom: 20px;
+}
+
+.navbar-brand{
+    height: 80px;
+    font-size: 25px;
+}
+
+#title{
+    color: white;
+    font-size: 20px;
+}
+
+.space {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbarSize li a{
+    font-size: 15px;
+}
