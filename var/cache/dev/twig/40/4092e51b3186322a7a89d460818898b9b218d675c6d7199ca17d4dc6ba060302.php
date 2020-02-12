@@ -82,7 +82,10 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
     <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
         <ul class=\"navbar-nav mr-auto\" id=\"navbarSize\">
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">HOME</a></li>
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Change experience</a></li>
+            <li class=\"nav-item\"><a href=\"";
+        // line 23
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("allo");
+        echo "\" class=\"nav-link\">Allo</a></li>
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Test it</a></li>
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Display DB</a></li>
 
@@ -269,7 +272,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     public function getDebugInfo()
     {
-        return array (  250 => 51,  240 => 50,  221 => 40,  211 => 39,  193 => 36,  175 => 8,  156 => 5,  136 => 62,  132 => 61,  128 => 60,  124 => 59,  120 => 58,  115 => 56,  110 => 53,  108 => 50,  106 => 39,  102 => 37,  100 => 36,  74 => 13,  68 => 9,  66 => 8,  62 => 7,  58 => 6,  54 => 5,  48 => 1,);
+        return array (  253 => 51,  243 => 50,  224 => 40,  214 => 39,  196 => 36,  178 => 8,  159 => 5,  139 => 62,  135 => 61,  131 => 60,  127 => 59,  123 => 58,  118 => 56,  113 => 53,  111 => 50,  109 => 39,  105 => 37,  103 => 36,  87 => 23,  74 => 13,  68 => 9,  66 => 8,  62 => 7,  58 => 6,  54 => 5,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -296,7 +299,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
     <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
         <ul class=\"navbar-nav mr-auto\" id=\"navbarSize\">
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">HOME</a></li>
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Change experience</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('allo') }}\" class=\"nav-link\">Allo</a></li>
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Test it</a></li>
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Display DB</a></li>
 
@@ -344,6 +347,6 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 </footer>
 </body>
 
-</html>", "base.html.twig", "/home/ldanflous/projet_HTML/projet_html/templates/base.html.twig");
+</html>", "base.html.twig", "/home/ldanflous/projet_HTML/projet_html_symfony/templates/base.html.twig");
     }
 }
