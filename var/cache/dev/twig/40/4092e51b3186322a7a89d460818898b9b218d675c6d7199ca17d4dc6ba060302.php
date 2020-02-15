@@ -61,19 +61,23 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
         // line 7
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/myCSS.css"), "html", null, true);
         echo "\">
-    ";
+    <link rel=\"icon\" href=\"";
         // line 8
-        $this->displayBlock('stylesheets', $context, $blocks);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/logo.png"), "html", null, true);
+        echo "\" >
+    ";
         // line 9
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 10
         echo "</head>
 <body>
 
-<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
+<nav class=\"navbar navbar-expand-lg navbar-dark \" style=\"background-color: #ffff00\">
     <img class=\"navbar-brand\" src=\"";
-        // line 13
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
+        // line 14
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/logo.png"), "html", null, true);
         echo "\" alt=\"\" width=\"70px\">
-    <span class=\"navbar-item\" id=\"title\" href=\"\">Welcome !</span>
+    <span class=\"navbar-item\" id=\"title\" href=\"\">BLACK PANTH'EIRB</span>
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\"
             aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
         <span class=\"navbar-toggler-icon\"></span>
@@ -81,14 +85,30 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
         <ul class=\"navbar-nav mr-auto\" id=\"navbarSize\">
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">HOME</a></li>
             <li class=\"nav-item\"><a href=\"";
         // line 23
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("accueil");
+        echo "\" class=\"nav-link\">Accueil</a></li>
+            <li class=\"nav-item\"><a href=\"";
+        // line 24
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("allo");
-        echo "\" class=\"nav-link\">Allo</a></li>
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Test it</a></li>
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Display DB</a></li>
-
+        echo "\" class=\"nav-link\">Allos</a></li>
+            <li class=\"nav-item\"><a href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("lequipe");
+        echo "\" class=\"nav-link\">L'équipe</a></li>
+            <li class=\"nav-item\"><a href=\"";
+        // line 26
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("menus");
+        echo "\" class=\"nav-link\">Menus</a></li>
+            <li class=\"nav-item\"><a href=\"";
+        // line 27
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("actis");
+        echo "\" class=\"nav-link\">Actis</a></li>
+            <li class=\"nav-item\"><a href=\"";
+        // line 28
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("soirees");
+        echo "\" class=\"nav-link\">Soirées</a></li>
         </ul>
         <ul class=\"navbar-nav mr-2\">
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Admin access</a></li>
@@ -99,43 +119,43 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 </nav>
 <div class=\"container\">
     ";
-        // line 36
+        // line 38
         $this->displayBlock('body', $context, $blocks);
-        // line 37
+        // line 39
         echo "</div>
 
 ";
-        // line 39
+        // line 41
         $this->displayBlock('scriptAlreadyImported', $context, $blocks);
-        // line 50
+        // line 52
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 53
+        // line 55
         echo "<!-- Footer -->
 <footer>
-    <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
+    <nav class=\"navbar navbar-expand-lg fixed-bottom navbar-dark\" style=\"background-color: #000000\">
         <img class=\"navbar-brand\" src=\"";
-        // line 56
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
-        echo "\" alt=\"\" width=\"70px\">
+        // line 58
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/logo.png"), "html", null, true);
+        echo "\"  alt=\"\" width=\"70px\">
         <span class=\"center\">
            <img class=\"space\" src=\"";
-        // line 58
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
-        echo "\" alt=\"\" width=\"30px\">
-           <img class=\"space\" src=\"";
-        // line 59
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
-        echo "\" alt=\"\" width=\"30px\">
-           <img class=\"space\" src=\"";
         // line 60
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/icone-facebook-01-01.png"), "html", null, true);
         echo "\" alt=\"\" width=\"30px\">
            <img class=\"space\" src=\"";
         // line 61
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/logoinsta.png"), "html", null, true);
         echo "\" alt=\"\" width=\"30px\">
            <img class=\"space\" src=\"";
         // line 62
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
+        echo "\" alt=\"\" width=\"30px\">
+           <img class=\"space\" src=\"";
+        // line 63
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
+        echo "\" alt=\"\" width=\"30px\">
+           <img class=\"space\" src=\"";
+        // line 64
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/form.png"), "html", null, true);
         echo "\" alt=\"\" width=\"30px\">
        </span>
@@ -165,7 +185,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Welcome !";
+        echo "BLACK PANTH'EIRB";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -174,7 +194,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     }
 
-    // line 8
+    // line 9
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -192,7 +212,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     }
 
-    // line 36
+    // line 38
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -210,7 +230,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     }
 
-    // line 39
+    // line 41
     public function block_scriptAlreadyImported($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -220,7 +240,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "scriptAlreadyImported"));
 
-        // line 40
+        // line 42
         echo "    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\"
             integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\"
             crossorigin=\"anonymous\"></script>
@@ -239,7 +259,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     }
 
-    // line 50
+    // line 52
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -249,7 +269,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 51
+        // line 53
         echo "
 ";
         
@@ -272,7 +292,7 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     public function getDebugInfo()
     {
-        return array (  253 => 51,  243 => 50,  224 => 40,  214 => 39,  196 => 36,  178 => 8,  159 => 5,  139 => 62,  135 => 61,  131 => 60,  127 => 59,  123 => 58,  118 => 56,  113 => 53,  111 => 50,  109 => 39,  105 => 37,  103 => 36,  87 => 23,  74 => 13,  68 => 9,  66 => 8,  62 => 7,  58 => 6,  54 => 5,  48 => 1,);
+        return array (  273 => 53,  263 => 52,  244 => 42,  234 => 41,  216 => 38,  198 => 9,  179 => 5,  159 => 64,  155 => 63,  151 => 62,  147 => 61,  143 => 60,  138 => 58,  133 => 55,  131 => 52,  129 => 41,  125 => 39,  123 => 38,  110 => 28,  106 => 27,  102 => 26,  98 => 25,  94 => 24,  90 => 23,  78 => 14,  72 => 10,  70 => 9,  66 => 8,  62 => 7,  58 => 6,  54 => 5,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -281,16 +301,17 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 <html>
 <head>
     <meta charset=\"UTF-8\">
-    <title>{% block title %}Welcome !{% endblock %}</title>
+    <title>{% block title %}BLACK PANTH'EIRB{% endblock %}</title>
     <link rel=\"stylesheet\" href=\"{{ asset('css/myBootstrap.css') }}\">
     <link rel=\"stylesheet\" href=\"{{ asset('css/myCSS.css') }}\">
+    <link rel=\"icon\" href=\"{{ asset('img/logo.png') }}\" >
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
 
-<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-    <img class=\"navbar-brand\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"70px\">
-    <span class=\"navbar-item\" id=\"title\" href=\"\">Welcome !</span>
+<nav class=\"navbar navbar-expand-lg navbar-dark \" style=\"background-color: #ffff00\">
+    <img class=\"navbar-brand\" src=\"{{ asset('img/logo.png') }}\" alt=\"\" width=\"70px\">
+    <span class=\"navbar-item\" id=\"title\" href=\"\">BLACK PANTH'EIRB</span>
     <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\"
             aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
         <span class=\"navbar-toggler-icon\"></span>
@@ -298,11 +319,12 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 
     <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
         <ul class=\"navbar-nav mr-auto\" id=\"navbarSize\">
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">HOME</a></li>
-            <li class=\"nav-item\"><a href=\"{{ path('allo') }}\" class=\"nav-link\">Allo</a></li>
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Test it</a></li>
-            <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Display DB</a></li>
-
+            <li class=\"nav-item\"><a href=\"{{ path('accueil') }}\" class=\"nav-link\">Accueil</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('allo') }}\" class=\"nav-link\">Allos</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('lequipe') }}\" class=\"nav-link\">L'équipe</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('menus') }}\" class=\"nav-link\">Menus</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('actis') }}\" class=\"nav-link\">Actis</a></li>
+            <li class=\"nav-item\"><a href=\"{{ path('soirees') }}\" class=\"nav-link\">Soirées</a></li>
         </ul>
         <ul class=\"navbar-nav mr-2\">
             <li class=\"nav-item\"><a href=\"\" class=\"nav-link\">Admin access</a></li>
@@ -331,11 +353,11 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 {% endblock %}
 <!-- Footer -->
 <footer>
-    <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-        <img class=\"navbar-brand\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"70px\">
+    <nav class=\"navbar navbar-expand-lg fixed-bottom navbar-dark\" style=\"background-color: #000000\">
+        <img class=\"navbar-brand\" src=\"{{ asset('img/logo.png') }}\"  alt=\"\" width=\"70px\">
         <span class=\"center\">
-           <img class=\"space\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"30px\">
-           <img class=\"space\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"30px\">
+           <img class=\"space\" src=\"{{ asset('img/icone-facebook-01-01.png') }}\" alt=\"\" width=\"30px\">
+           <img class=\"space\" src=\"{{ asset('img/logoinsta.png') }}\" alt=\"\" width=\"30px\">
            <img class=\"space\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"30px\">
            <img class=\"space\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"30px\">
            <img class=\"space\" src=\"{{ asset('img/form.png') }}\" alt=\"\" width=\"30px\">
@@ -347,6 +369,6 @@ class __TwigTemplate_00937e8692be97433f835f5cf3f6f3513c986d37a3ad0140193e4d447c7
 </footer>
 </body>
 
-</html>", "base.html.twig", "/home/ldanflous/projet_HTML/projet_html_symfony/templates/base.html.twig");
+</html>", "base.html.twig", "/home/clement/Documents/projet_html_symfony/templates/base.html.twig");
     }
 }
