@@ -94,6 +94,11 @@ input[type='file'] {
     margin-left: 15px;
 }
 
+.space:hover {
+    cursor: pointer;
+    width: 40px;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -107,5 +112,16 @@ input[type='file'] {
 .nav-item
 {
     color:black !important;
+
+}
+
+body {
+    background-color:white;
+    background-image:url(../img/BP-logo-final.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
 
 }
