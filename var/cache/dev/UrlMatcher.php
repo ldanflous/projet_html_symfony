@@ -13,8 +13,12 @@ return [
         '/_profiler/search_bar' => [[['_route' => '_profiler_search_bar', '_controller' => 'web_profiler.controller.profiler::searchBarAction'], null, null, null, false, false, null]],
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
-        '/accueil' => [[['_route' => 'accueil', '_controller' => 'App\\Controller\\AccueilController::index'], null, null, null, false, false, null]],
+        '/' => [[['_route' => 'accueil', '_controller' => 'App\\Controller\\AccueilController::index'], null, null, null, false, false, null]],
+        '/actis' => [[['_route' => 'actis', '_controller' => 'App\\Controller\\ActisController::index'], null, null, null, false, false, null]],
         '/allo' => [[['_route' => 'allo', '_controller' => 'App\\Controller\\AlloController::index'], null, null, null, false, false, null]],
+        '/lequipe' => [[['_route' => 'lequipe', '_controller' => 'App\\Controller\\LequipeController::index'], null, null, null, false, false, null]],
+        '/menus' => [[['_route' => 'menus', '_controller' => 'App\\Controller\\MenusController::index'], null, null, null, false, false, null]],
+        '/soirees' => [[['_route' => 'soirees', '_controller' => 'App\\Controller\\SoireesController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

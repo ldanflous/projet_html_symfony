@@ -15,6 +15,10 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token'], ['text', '/_profiler']], [], []],
-    'accueil' => [[], ['_controller' => 'App\\Controller\\AccueilController::index'], [], [['text', '/accueil']], [], []],
+    'accueil' => [[], ['_controller' => 'App\\Controller\\AccueilController::index'], [], [['text', '/']], [], []],
+    'actis' => [[], ['_controller' => 'App\\Controller\\ActisController::index'], [], [['text', '/actis']], [], []],
     'allo' => [[], ['_controller' => 'App\\Controller\\AlloController::index'], [], [['text', '/allo']], [], []],
+    'lequipe' => [[], ['_controller' => 'App\\Controller\\LequipeController::index'], [], [['text', '/lequipe']], [], []],
+    'menus' => [[], ['_controller' => 'App\\Controller\\MenusController::index'], [], [['text', '/menus']], [], []],
+    'soirees' => [[], ['_controller' => 'App\\Controller\\SoireesController::index'], [], [['text', '/soirees']], [], []],
 ];

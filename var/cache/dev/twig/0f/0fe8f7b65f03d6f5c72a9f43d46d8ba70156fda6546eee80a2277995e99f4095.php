@@ -65,7 +65,7 @@ class __TwigTemplate_bb39b7894a4da18608116423a872750f7adff61bfb715d81764f2260bae
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Hello AccueilController!";
+        echo "BLACK PANTH'EIRB";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -124,105 +124,6 @@ class __TwigTemplate_bb39b7894a4da18608116423a872750f7adff61bfb715d81764f2260bae
         // line 23
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
         echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 25
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 26
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 28
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 29
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 31
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 32
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 34
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 35
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 37
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 38
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 40
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 41
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 43
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 44
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 46
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 47
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 49
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 50
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 52
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 53
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"";
-        // line 55
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php", 0), "html", null, true);
-        echo "\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"";
-        // line 56
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig", 0), "html", null, true);
-        echo "\">templates/accueil/index.html.twig</a></code></li>
     </ul>
 </div>
 ";
@@ -246,14 +147,14 @@ class __TwigTemplate_bb39b7894a4da18608116423a872750f7adff61bfb715d81764f2260bae
 
     public function getDebugInfo()
     {
-        return array (  224 => 56,  220 => 55,  215 => 53,  211 => 52,  206 => 50,  202 => 49,  197 => 47,  193 => 46,  188 => 44,  184 => 43,  179 => 41,  175 => 40,  170 => 38,  166 => 37,  161 => 35,  157 => 34,  152 => 32,  148 => 31,  143 => 29,  139 => 28,  134 => 26,  130 => 25,  125 => 23,  121 => 22,  116 => 20,  112 => 19,  107 => 17,  103 => 16,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  125 => 23,  121 => 22,  116 => 20,  112 => 19,  107 => 17,  103 => 16,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Hello AccueilController!{% endblock %}
+{% block title %}BLACK PANTH'EIRB{% endblock %}
 
 {% block body %}
 <style>
@@ -274,42 +175,9 @@ class __TwigTemplate_bb39b7894a4da18608116423a872750f7adff61bfb715d81764f2260bae
     </ul><ul>
         <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
         <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
-    </ul><ul>
-        <li>Your controller at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/src/Controller/AccueilController.php'|file_link(0) }}\">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href=\"{{ '/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig'|file_link(0) }}\">templates/accueil/index.html.twig</a></code></li>
     </ul>
 </div>
 {% endblock %}
-", "accueil/index.html.twig", "/home/ldanflous/projet_HTML/projet_html/templates/accueil/index.html.twig");
+", "accueil/index.html.twig", "/home/clement/Documents/projet_html_symfony/templates/accueil/index.html.twig");
     }
 }
