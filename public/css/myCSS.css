@@ -84,13 +84,19 @@ input[type='file'] {
 }
 
 #title{
-    color: white;
+    color: black;
     font-size: 20px;
+    font-family: Andale Mono, monospace;
 }
 
 .space {
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.space:hover {
+    cursor: pointer;
+    width: 40px;
 }
 
 .center {
@@ -101,4 +107,21 @@ input[type='file'] {
 
 #navbarSize li a{
     font-size: 15px;
+}
+
+.nav-item
+{
+    color:black !important;
+
+}
+
+body {
+    background-color:white;
+    background-image:url(../img/BP-logo-final.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+
 }
