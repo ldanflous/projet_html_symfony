@@ -6,62 +6,43 @@
     <link rel="stylesheet" href="{{ asset('css/myBootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/myCSS.css') }}">
     <link rel="icon" href="{{ asset('img/logo.png') }}" >
+    <link rel="name" href="{{ asset('img/Name.png') }}" >
+    <link rel="logo_head" href="{{ asset('img/open.png') }}" >
     {% block stylesheets %}{% endblock %}
     <style type="text/css">
       body { padding-top : 100px; }
     </style>
   </head>
   <body>
-
-<<<<<<< HEAD
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <img class="navbar-brand" src="{{ asset('img/form.png') }}" alt="" width="70px">
-      <span class="navbar-item" id="title" href="">Black Panth'Eirb</span>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #ffff00">
+      <img class="navbar-brand" src="{{ asset('img/open.png') }}" alt="" width="70px">
+      <img class="navbar-brand" src="{{ asset('img/Name.png') }}" alt="" width="180px">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
               aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarColor01">
-	<ul class="navbar-nav mr-auto" id="navbarSize">
-          <li class="nav-item"><a href="{{path('accueil') }}" class="nav-link">HOME</a></li>
-          <li class="nav-item"><a href="{{ path('allo') }}" class="nav-link">Allo</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Test it</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Display DB</a></li>
-
-	</ul>
-	<ul class="navbar-nav mr-2">
-          <li class="nav-item"><a href="" class="nav-link">Admin access</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Sign up</a></li>
-=======
-<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #ffff00">
-    <img class="navbar-brand" src="{{ asset('img/logo.png') }}" alt="" width="70px">
-    <span class="navbar-item" id="title" href="">BLACK PANTH'EIRB</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
-            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto" id="navbarSize">
-            <li class="nav-item"><a href="{{ path('accueil') }}" class="nav-link">Accueil</a></li>
-            <li class="nav-item"><a href="{{ path('allo') }}" class="nav-link">Allos</a></li>
-            <li class="nav-item"><a href="{{ path('lequipe') }}" class="nav-link">L'équipe</a></li>
-            <li class="nav-item"><a href="{{ path('menus') }}" class="nav-link">Menus</a></li>
-            <li class="nav-item"><a href="{{ path('actis') }}" class="nav-link">Actis</a></li>
-            <li class="nav-item"><a href="{{ path('soirees') }}" class="nav-link">Soirées</a></li>
+          <li class="nav-item"><a href="{{ path('accueil') }}" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="{{ path('allo') }}" class="nav-link">Allos</a></li>
+          <li class="nav-item"><a href="{{ path('lequipe') }}" class="nav-link">L'équipe</a></li>
+          <li class="nav-item"><a href="{{ path('menus') }}" class="nav-link">Menus</a></li>
+          <li class="nav-item"><a href="{{ path('actis') }}" class="nav-link">Actis</a></li>
+          <li class="nav-item"><a href="{{ path('soirees') }}" class="nav-link">Soirées</a></li>
         </ul>
         <ul class="navbar-nav mr-2">
-            <li class="nav-item"><a href="" class="nav-link">Admin access</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Sign up</a></li>
->>>>>>> 35534aaa8d76bd76881c2c937610052da4e6be69
+          <li class="nav-item"><a href="" class="nav-link">Admin access</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Sign up</a></li>
 
 	</ul>
       </div>
     </nav>
-    
+
 
     <div class="container">
+      
       {% block body %}{% endblock %}
     </div>
 
@@ -79,18 +60,18 @@
     {% block javascripts %}
 
 
-{% endblock %}
-<!-- Footer -->
-<footer>
-    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark" style="background-color: #000000">
+    {% endblock %}
+    <!-- Footer -->
+    <footer>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffff00">
         <img class="navbar-brand" src="{{ asset('img/logo.png') }}"  alt="" width="70px">
         <span class="center">
-           <img class="space" src="{{ asset('img/icone-facebook-01-01.png') }}" alt="" width="30px">
-           <img class="space" src="{{ asset('img/logoinsta.png') }}" alt="" width="30px">
-           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
-           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
-           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
-       </span>
+          <img class="space" src="{{ asset('img/icone-facebook-01-01.png') }}" alt="" width="30px">
+          <img class="space" src="{{ asset('img/logoinsta.png') }}" alt="" width="30px">
+          <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+          <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+          <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
+	</span>
 
         <ul class="navbar-nav mr-2">
           <li class="nav-item"><a href="" class="nav-link">Copyright © 2020</a></li>

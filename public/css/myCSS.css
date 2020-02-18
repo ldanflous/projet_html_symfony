@@ -116,11 +116,12 @@ input[type='file'] {
 }
 
 body {
-    background-color:white;
-    background-image:url(../img/BP-logo-final.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: contain;
+    background-color:black;
+    background-image: url(../img/background_l.jpg), url(../img/background_r.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position:  left, right;
+    background-size: 25%, 25%;
+    color: white;
     margin: 0;
     padding: 0;
 
