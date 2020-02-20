@@ -15,7 +15,7 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #ffff00">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffd700">
       <img class="navbar-brand" src="{{ asset('img/open.png') }}" alt="" width="70px">
       <img class="navbar-brand" src="{{ asset('img/Name.png') }}" alt="" width="180px">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
@@ -63,19 +63,16 @@
     {% endblock %}
     <!-- Footer -->
     <footer>
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffff00">
-        <img class="navbar-brand" src="{{ asset('img/logo.png') }}"  alt="" width="70px">
-        <span class="center">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffd700">
+        <img class="navbar-brand center-xs" src="{{ asset('img/logo.png') }}"  alt="" width="70px">
+	<div class="center">
           <img class="space" src="{{ asset('img/icone-facebook-01-01.png') }}" alt="" width="30px">
           <img class="space" src="{{ asset('img/logoinsta.png') }}" alt="" width="30px">
           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
           <img class="space" src="{{ asset('img/form.png') }}" alt="" width="30px">
-	</span>
-
-        <ul class="navbar-nav mr-2">
-          <li class="nav-item"><a href="" class="nav-link">Copyright © 2020</a></li>
-        </ul>
+	</div>
+	<a href="" class="center-xs copyright">Copyright © 2020</a>
       </nav>
     </footer>
   </body>

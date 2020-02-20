@@ -109,11 +109,6 @@ input[type='file'] {
     font-size: 15px;
 }
 
-.nav-item
-{
-    color:black !important;
-
-}
 
 body {
     background-color:black;
@@ -126,3 +121,23 @@ body {
     padding: 0;
 
 }
+
+@media (max-width: 550px)
+{
+    .center-xs
+    {
+	margin: auto;
+    }
+}
+
+.copyright
+{
+    color: black;
+}
+
+.copyright:hover
+{
+    text-decoration: none;
+    color:black;
+}
+
