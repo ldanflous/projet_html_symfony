@@ -126,7 +126,7 @@ body {
 {
     .center-xs
     {
-	margin: auto;
+	margin: 10%;
     }
 }
 
@@ -141,3 +141,24 @@ body {
     color:black;
 }
 
+.formatTeam img{
+    width: 60%;
+    height: 50%;
+    margin-bottom: 3%;
+    padding: 0;
+}
+
+.decaleDroite{
+    padding-right: 10%;
+    margin-left: 40%;
+}
+
+.example-wrapper h2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.imgContainer {
+    margin-bottom: 10%;
+}
