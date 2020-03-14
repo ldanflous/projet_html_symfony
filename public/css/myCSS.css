@@ -162,3 +162,36 @@ body {
 .imgContainer {
     margin-bottom: 10%;
 }
+
+.invisible-setup {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.invisible-setup p {
+    width: 40%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.invisible-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    z-index: 3
+}
+
+.invisible-1:hover {
+    opacity: 1;
+}
+
+.invisible-classic {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
