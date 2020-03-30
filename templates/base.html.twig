@@ -42,10 +42,11 @@
     </nav>
 
 
-    <div class="container">
-      
-      {% block body %}{% endblock %}
-    </div>
+    {% block container %}
+      <div class="container">
+        {% block body %}{% endblock %}
+      </div>
+    {% endblock container %}
 
     {% block scriptAlreadyImported %}
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -59,8 +60,7 @@
             crossorigin="anonymous"></script>
     {% endblock %}
     {% block javascripts %}
-
-
+      <script src="{{ asset('script/doodlejump/javascript/main.min.js') }}" type="text/javascript" charset="utf-8"></script>
     {% endblock %}
     <!-- Footer -->
     <footer>
@@ -76,6 +76,7 @@
 	<a href="" class="center-xs copyright">Copyright © 2020</a>
       </nav>
     </footer>
+
   </body>
 
 </html>
