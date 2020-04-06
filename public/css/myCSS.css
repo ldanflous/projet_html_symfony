@@ -166,3 +166,8 @@ body {
 .doodle-container {
     padding-left: 0;
 }
+
+.imgEmoji{
+    display: inline;
+    height: 20px;
+}
