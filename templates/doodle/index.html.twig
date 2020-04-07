@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DoodleController!{% endblock %}
+
+{% block stylesheets %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="{{ asset('script/doodlejump/stylesheets/screen.css') }}" media="screen, projection" rel="stylesheet"
+          type="text/css"/>
+    <link href="{{ asset('script/doodlejump/stylesheets/print.css') }}" media="print" rel="stylesheet" type="text/css"/>
+    <!--[if IE]>
+    <link href="{{ asset('script/doodlejump/stylesheets/ie.css') }}" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script src="{{ asset('script/doodlejump/javascript/main.js') }}" type="text/javascript" charset="utf-8"></script>
+{% endblock %}
+{% block container %}
+        <p id="time" type="text">0</p>
+    <div class="container doodle-container">
+        <canvas id="canvas">
+            Oooh… votre navigateur ne supporte pas HTML5!
+        </canvas>
+
+        <div id="mainMenu">
+            <h1>Doodl'EIRB</h1>
+            <h3>MRC les BP </h3>
+            <h3>pour le code Quali</h3>
+
+            <p class="info">
+                utiliser
+                <span class="key left">←</span>
+                <span class="key right">→</span>
+                pour vous déplacer <br/>
+                et ESPACE pour (re)démarrer...
+            </p>
+            <a class="button" href="javascript:init();stat()">Allons-y&nbsp;!</a>
+        </div>
+
+        <div id="gameOverMenu">
+            <h1>game over!</h1>
+            <h3 id="go_score"></h3>
+
+            <a id="fbBtn" target="_blank" class="button fb" href="#">Poster sur FB</a>
+            <a id="tweetBtn" target="_blank" class="button tweet" href="#">Tweeter</a>
+            <a class="button" href="javascript:reset()">Redémarrer</a>
+        </div>
+
+
+        <!-- Preloading image ;) -->
+        <img id="sprite" src="{{ asset('script/doodlejump/img/sprite.png') }}"/>
+
+        <div id="scoreBoard">
+            <p id="score">0</p>
+        </div>
+    </div>
+    <div class="centerDiv">
+        {{ form_start(form) }}
+        {{ form_row(form.score)}}
+        {{ form_row(form.stat)}}
+        {{ form_row(form.pseudo, {'label' : 'Rentre ton pseudo champion :'}) }}
+
+        <span>Tu peux mettre à jour ton high score en écrivant à nouveau ton pseudo ! <img class="imgEmoji" src="{{ asset('img/emoji5.png') }}" alt=""></span>
+
+        <input class="btn btn-success" type="submit" value="Enregistrer mon score">
+        {{ form_end(form) }}
+    </div>
+
+    <br>
+
+{% endblock %}
