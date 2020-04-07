@@ -443,6 +443,8 @@ function init() {
 
 	function gameOver() {
 		document.getElementById('time').innerHTML = 0;
+		console.log(score);
+		document.getElementById("form_score").value = 35;
 		platforms.forEach(function(p, i) {
 			p.y -= 12;
 		});

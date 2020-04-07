@@ -26,6 +26,8 @@ class Result
      */
     private $score;
 
+    private $stat;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -51,6 +53,18 @@ class Result
     public function setScore(int $score): self
     {
         $this->score = $score;
+
+        return $this;
+    }
+
+    public function getStat(): ?int
+    {
+        return $this->stat;
+    }
+
+    public function setStat(int $stat): self
+    {
+        $this->stat = $stat;
 
         return $this;
     }

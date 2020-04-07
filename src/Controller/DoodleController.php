@@ -18,6 +18,8 @@ class DoodleController extends AbstractController
         $result = new Result();
         $form = $this->createFormBuilder($result)
             ->add('pseudo')
+            ->add('score')
+            ->add('stat')
             ->getForm();
 
         $form->handleRequest($request);
