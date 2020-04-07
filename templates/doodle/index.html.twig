@@ -11,10 +11,11 @@
     <!--[if IE]>
     <link href="{{ asset('script/doodlejump/stylesheets/ie.css') }}" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
+   {# <script src="{{ asset('script/doodlejump/javascript/time.js') }}" type="text/javascript" charset="utf-8"></script>#}
     <script src="{{ asset('script/doodlejump/javascript/main.js') }}" type="text/javascript" charset="utf-8"></script>
 {% endblock %}
 {% block container %}
-
+        <p id="time" type="text">0</p>
     <div class="container doodle-container">
         <canvas id="canvas">
             Oooh… votre navigateur ne supporte pas HTML5!
@@ -32,7 +33,7 @@
                 pour vous déplacer <br/>
                 et ESPACE pour (re)démarrer...
             </p>
-            <a class="button" href="javascript:init()">Allons-y&nbsp;!</a>
+            <a class="button" href="javascript:init();stat()">Allons-y&nbsp;!</a>
         </div>
 
         <div id="gameOverMenu">

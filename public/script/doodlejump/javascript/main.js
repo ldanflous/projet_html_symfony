@@ -218,6 +218,17 @@ var spring = function() {
 
 var Spring = new spring();
 
+function stat() {
+	//document.getElementById('time').innerHTML = 0;
+	if (player.isDead!==true){
+		document.getElementById('time').innerHTML = parseInt(document.getElementById('time').innerHTML)+1;
+		setTimeout('stat()',1000);
+	} else {
+		document.getElementById('time').innerHTML = 0;
+		setTimeout('stat()', 1000);
+	}
+}
+
 function init() {
 	//Variables for the game
 	var	dir = "left",
@@ -254,12 +265,12 @@ function init() {
 				player.isMovingRight = true;
 			}
 			
-			if(key == 32) {
+/*			if(key == 32) {
 				if(firstRun === true)
 					init();
 				else 
 					reset();
-			}
+			}*/
 		};
 
 		document.onkeyup = function(e) {
@@ -431,6 +442,7 @@ function init() {
 	}
 
 	function gameOver() {
+		document.getElementById('time').innerHTML = 0;
 		platforms.forEach(function(p, i) {
 			p.y -= 12;
 		});
@@ -568,14 +580,15 @@ function playerJump() {
 			player.isMovingRight = true;
 		}
 	
-		if(key == 32) {
+	/*	if(key == 32) {
 			if(firstRun === true) {
 				init();
 				firstRun = false;
 			}
-			else 
+			else {
 				reset();
-		}
+			}
+		}*/
 	};
 
 	document.onkeyup = function(e) {
